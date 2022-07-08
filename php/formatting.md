@@ -1,6 +1,7 @@
 # Formatting
 
 While formatting your code, it is recommended to use 4-spaced indents instead of tabs. Also, it is recommended to keep a `.editorconfig` file in the project root folder so that other people can also adjust their editors according to your configurations.
+Also, using too much empty lines should be avoided.
 
 ### PHP Tags
 
