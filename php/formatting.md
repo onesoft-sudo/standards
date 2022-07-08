@@ -5,7 +5,7 @@ Also, using too much empty lines should be avoided.
 
 ### PHP Tags
 
-If you don't have raw HTML in your PHP file, it is highly recommended to keep only a opening `<?php` tag at the top, and no ending tag.
+If you don't have raw HTML in your PHP file, it is highly recommended to keep only one opening `<?php` tag at the top, and no ending tag.
 Example:
 
 ```php
