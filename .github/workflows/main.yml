@@ -18,7 +18,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+     
+      - uses: nanasess/setup-php@v3
+        with:
+            php-version: '8.1'
 
       # Runs a set of commands using the runners shell
       - name: Validate files
-        run: bash validate.sh
+        run: php validate.php
