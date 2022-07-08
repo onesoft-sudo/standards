@@ -5,7 +5,7 @@ The coding standards and guidelines of OSN. We generally follow and recommend th
 ### Table of Contents
 
 - [PHP Coding Standards](php/index.md)
-- [JavaScript Coding Standards](javascript/index.md)
+- [Javascript Coding Standards](javascript/index.md)
 
 ### Contributions 
 
