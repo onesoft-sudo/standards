@@ -1,10 +1,9 @@
 <?php
 
-$ignore = [".git", ".github", "LICENSE.md"];
+$ignore = [".git", ".github", "LICENSE.md", basename(__FILE__)];
 
 function validateFiles(string $dir = ".") {
-    global $ignore; 
-    
+    global $ignore;
     $contents = array_filter(scandir($dir), fn($d) => $d !== "." || $d !== "..");
     chdir($dir);
     
@@ -15,11 +14,12 @@ function validateFiles(string $dir = ".") {
         
         if (is_dir($file)) {
             validateFiles($file);
+            continue;
         }
         
         $text = file_get_contents($file);
         
-        if (!preg_match("/^(\s+)\#(.*)/", $text)) {
+        if (!preg_match("/^(\s*)\#(.*)/mi", $text)) {
             echo "File validation failed: " . realpath($file);
             exit(-1);
         }
