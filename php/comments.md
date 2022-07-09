@@ -1,3 +1,4 @@
+
 # Comments
 
 Using comments is HIGHLY recommended, because when other people review the project's code, they will understand what a specific method/function/class/property/variable does or what's its functionality by reading the comments. Otherwise its really hard for them to figure out what's going on inside the code.
