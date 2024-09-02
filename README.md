@@ -1,6 +1,6 @@
 # OSN Coding Standards
 
-The coding standards and guidelines of OSN. We generally follow and recommend these coding conventions in our projects.
+The coding standards and guidelines of OSN. We follow and recommend these coding conventions in our projects.
 
 ### Table of Contents
 
@@ -9,4 +9,4 @@ The coding standards and guidelines of OSN. We generally follow and recommend th
 
 ### Contributions 
 
-If you have any improvement ideas/suggestions or found any typos, you can create an issue. Fixes are also welcome.
+If you have any suggestions or want to improve these standards, feel free to make changes and create a PR or issue for discussions.
